@@ -1,0 +1,159 @@
+@media (max-width: 450px) {
+    /* responsivo do menu */
+    header {  
+        display: flex;
+        flex-wrap: nowrap;
+        width: 810px;
+    }
+ 
+    /* responsivo do inicio  */
+    #inicio {
+        display: flex;
+        align-items: center;
+        width: 810px;
+        height: 430px;
+        gap: 32px;
+        padding: 10px 20px 20px 10px;
+        position: relative;
+        flex-direction: row; 
+     }
+    
+    section img {
+        position: relative;
+        width: 300px;
+        height: 250px;      
+    }
+
+     a.botao {
+        width: 10px;
+        height: 10px;
+        /* background-color: #ff725e;
+        border-radius: 8px;
+        color: #ffff; */
+        padding: 5px 5px;
+        /* text-decoration: none; */
+        margin-bottom: 10px ;
+     }
+
+     .botao-transparente {
+        /* background-color: transparent;
+        color: #ff725e; */
+        padding: 10px 10px;
+        /* text-underline-offset: 4px;
+        margin-top: 20px; */
+    }
+
+
+    /* responsivo seçaõ clinica */
+
+    #clinica {
+        display: flex;
+        align-items: center;
+        width: 800px;
+        height: 430px;
+        gap: 32px;
+        padding: 10px 20px 20px 10px;
+        position: relative;
+        left: 5px;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    #clinica h2 {
+        width: 490px;
+        font-size: 25px;
+    }
+
+
+    /* responsivo sação farmacia */
+
+    #farmacia {
+        width: 700px;
+        
+        margin-top: 10px;
+        padding: 10px 20px 20px 10px;
+        text-align: center;
+    }
+    #farmacia img {
+        margin: 10px;
+    }
+
+    #farmacia h2 {
+        width: 800px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #farmacia .paragrafo {
+        width: 750px;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        margin: 0;
+        
+    }
+
+    /* responsives seção duvidas */
+
+    #duvidas {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        padding: 10px 20px 20px 10px;
+        flex-direction: column;
+        position: relative;
+        left: 50px;
+    }
+    .duvida img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 15px;
+        right: 10px;
+    }
+
+    #duvidas h2 {
+        font-size: 25px;
+        
+    }
+
+    .duvida h3 {
+        width: 700px;
+        
+    }
+
+    /* roda pé */
+
+    footer {
+        width: 810px;
+        height: 190px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    footer div {
+        /* width: 20px; */
+    }
+    footer p {
+        font-size: small;
+    }
+    
+    strong.titulo {
+        margin-bottom: 10px;
+        /* display: inline; */
+        
+    }
+
+    footer div nav a {
+        margin-bottom: 5px;
+    }
+
+    #copyright {
+        width: 810px;
+    }
+
+}
+
