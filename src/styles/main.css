@@ -157,6 +157,7 @@ main {
                 font-weight: var(--font-weight-paragraph);
                 font-size: var(--font-size-btn-mobile);
                 line-height: 170%;
+                margin-top: 1.25rem;
                 
                 li {
                     margin-left: 2rem;
