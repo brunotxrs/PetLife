@@ -1,0 +1,105 @@
+footer {
+    width: 100vw;
+    margin-top: 1.25rem;
+    background-color: var(--color-footer);
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 0.9375rem 1.25rem;
+
+
+    div:nth-child(1) {
+
+        img{
+            width: 70px;
+        }
+
+        p {
+            margin-top: 5px;
+            font-family: var(--font-family);
+            font-size: var(--font-size-btn-mobile);
+            font-weight: var(--font-weight-paragraph);
+            line-height: var(--line-height-paragraph);
+
+        }
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: -0.625rem;
+        
+        .titulo {
+            margin-left: 0.625rem;  
+            font-family: var(--font-family);
+            font-size: var(--font-size-paragraph-mobile);
+            font-weight: var(--font-weight-title);
+            line-height: var(--line-height-paragraph); 
+        } 
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
+            
+
+            a {
+                text-decoration: none;
+                color: var(--color-text);
+                font-family: var(--font-family);
+                font-size: var(--font-size-btn-mobile);
+
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+        .titulo { 
+            font-family: var(--font-family);
+            font-size: var(--font-size-paragraph-mobile);
+            font-weight: var(--font-weight-title);
+            line-height: var(--line-height-paragraph); 
+        } 
+
+        p {
+            margin-right: 0.625rem;
+            color: var(--color-text);
+            font-family: var(--font-family);
+            font-size: var(--font-size-btn-mobile);
+            
+
+            a {
+                text-decoration: none;
+                color: var(--color-text);
+                font-family: var(--font-family);
+                font-size: var(--font-size-btn-mobile);
+
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            
+        } 
+    }
+    
+}
