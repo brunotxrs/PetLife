@@ -1,0 +1,65 @@
+* { 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --color-text: #263138;
+    --color-btn: #FF725E;
+    --color-header: #FF9A6C;
+    --color-footer: #FF9A6C40;
+    --color-white:#ffffff;
+    --color-black: #0000;
+
+    --font-size-title-mobile: 1.1rem;
+    --font-size-paragraph-mobile: 0.9rem;
+    --font-size-btn-mobile: 0.8rem;
+
+    --font-size-title: 2rem;
+    --font-weight-title: 600;
+    --line-height-title: 110%;
+    --font-size-paragraph: 1.125rem;
+    --font-weight-paragraph: 400;
+    --line-height-paragraph: 150%;
+
+    --font-size-btn: 1rem;
+    --font-weigh-btn: 600;
+    --line-height-btn: 100%;
+
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    color: var(--color-text);
+
+
+    #copyright {
+        background-color: var(--color-text);
+        color: var(--color-white);
+        text-align: center;
+        padding: 1rem;
+        font-family: var(--font-family);
+        font-weight: var(--font-weight-title);
+        font-size: var(--font-size-btn-mobile);
+        line-height: var(--line-height-title);
+
+        a {
+            font-family: var(--font-family);
+            font-size: var(--font-size-btn-mobile);
+            text-decoration: none;
+            color: #ff9a6c;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
