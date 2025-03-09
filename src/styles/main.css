@@ -60,7 +60,7 @@ main {
 
         .btn-box {
             position: absolute;
-            top: 6rem;
+            top: 8.5rem;
             left: 0;
             display: flex;
             flex-direction: column;
@@ -410,6 +410,475 @@ main {
         }
 
 
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+ 
+    main {
+        width: 100vw;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        
+        #inicio {
+            
+            margin-top: initial;
+            width: 100%;
+            height: 46.0625rem;
+            position: relative;
+    
+            .inicio-box-title {
+                width: 90%;
+                height: 4.375rem;
+                margin-left: 90px;
+
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: right;
+                margin-top: initial;
+                position: absolute;
+                top: 8.5rem;
+                left: 0;
+    
+                h1 {
+
+                    width: 600px;
+
+                    
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-title);
+                    font-weight: var(--font-weight-title);
+                    line-height: var(--line-height-title);
+    
+                }
+            }
+    
+            .img-box {
+                width: 25.25rem;
+                height: 36.25rem;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+    
+            }
+    
+            
+    
+            .absolute {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 9rem;
+                left: 0;
+                z-index: -1;
+    
+            }
+    
+            .btn-box {
+                position: absolute;
+                top: 24rem;
+                left: 0;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 5px;
+                width: 90%;
+                margin-left: 90px;
+                height: 45px;
+                padding-right: 108px;
+                
+
+                
+    
+                .botao {
+                    width: 245px;
+                    height: 52px;
+                    border-radius: 8px;
+                    padding: 16px 32px;
+                    gap: 0.625rem;
+
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-btn);
+                    font-weight: var(--font-weight-title);
+                    line-height: var(--line-height-btn);
+                    background-color: var(--color-btn);
+                    color: var(--color-white);
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    text-decoration: none;
+                    margin-right: initial;
+                }
+    
+                .botao:hover {
+                    text-decoration: underline;
+                }
+    
+    
+                .botao-transparente {
+                    width: 255px;
+                    height: 52px;
+                    border-radius: 8px;
+                    padding: 16px 32px;
+                    margin-right: 0;
+                    gap: 0.625rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: nowrap;
+                    text-align: center;
+                    text-decoration: none;
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-btn);
+                    font-weight: var(--font-weight-title);
+                    line-height: var(--line-height-btn);
+                    color: var(--color-btn);
+                    
+                }
+    
+                .botao-transparente:hover {
+                    text-decoration: underline;
+                }
+            }
+    
+            .paragrafo-box {
+                width: 90%;
+                margin-left: 90px;
+                display: flex;
+                justify-content: right;
+                position: absolute;
+                left: 0;
+                top: 225px;
+    
+                .paragrafo {
+                    width: 600px;
+
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-paragraph);
+                    font-weight: var(--font-weight-paragraph);
+                    line-height: var(--line-height-paragraph);
+                    text-indent: 0.625rem;
+                    text-align: justify;
+                }
+    
+            }
+            
+        }
+    
+        #clinica {
+            width: 100vw;
+            height: 33.875rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin-top: 1rem;
+            position: relative;
+    
+            .title-box {
+                width: 60%;
+                height: 3.75rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+    
+                h2 {
+                    width: 591px;
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-title);
+                    font-weight: var(--font-weight-title);
+                    line-height: var(--line-height-title);
+    
+                }
+            }
+    
+            .img-box {
+                width: 100%;
+                height: 30rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: right;
+                margin-right: 20px;
+                position: absolute;
+                right: 0;
+    
+                img {
+                    width: 26rem;
+                    height: 100%;
+    
+                }
+                
+            }
+    
+            .paragrafo-box {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: initial;
+                margin-top: inherit;
+                position: absolute;
+                top: 60px;
+                
+                .paragrafo {
+                    width: 591px;
+                    
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-paragraph);
+                    font-weight: var(--font-weight-paragraph);
+                    line-height: var(--line-height-paragraph);
+                    text-indent: 0.625rem;
+                    text-align: initial;
+    
+                }
+    
+                ul {
+                    margin-top: 1.5rem;
+                    padding-right: 120px;
+                    font-family: var(--font-family);
+                    font-weight: var(--font-weight-paragraph);
+                    font-size: var(--font-size-btn);
+                    line-height: 170%;
+                    
+                    li {
+                        margin-left: initial;
+                    }
+                    
+                    
+                }
+    
+    
+    
+            }
+    
+        }
+    
+        #farmacia {
+            width: 954px;
+            height: 52.75rem;
+            text-align: center;
+            margin-top: 1.8750rem;
+            padding: 0 5px;
+
+            .title-box {
+                width: 100%;
+                height: 3.75rem;
+                padding: 0 0.625rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 50px;
+    
+                h2 {
+                    width: 500px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-title);
+                    font-weight: var(--font-weight-title);
+                    line-height: var(--line-height-title);
+    
+                }
+            }
+    
+            .img-box {
+                width: 100%;
+                height: 26.875rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    
+    
+                img {
+                    width: 40.3125rem;
+                    height: 100%;
+    
+                }
+                
+            }
+    
+            .paragrafo-box {
+                width: 100%;
+                padding: 0 0.625rem;
+                margin-top: 3rem;
+    
+                .paragrafo {
+                    
+                    font-family: var(--font-family);
+                    font-size: var(--font-size-paragraph);
+                    font-weight: var(--font-weight-paragraph);
+                    line-height: var(--line-height-paragraph);
+                    text-indent: 0.625rem;
+                    text-align: center;
+    
+                }
+    
+            }
+    
+        }
+    
+        #duvidas {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 3.5rem;
+            position: relative;
+
+    
+            .img-box {
+
+                width: 25.75rem;
+                height: 33.75rem;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+    
+            }
+
+            .container-duvida {
+                width: 28rem;
+
+                .title-box {
+                    width: 100%;
+                    height: 3.75rem;
+                    padding: 0 0.625rem;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    
+        
+                    h2 {
+        
+                        font-family: var(--font-family);
+                        font-size: var(--font-size-title);
+                        font-weight: var(--font-weight-title);
+                        line-height: var(--line-height-title);
+        
+                    }
+                }
+        
+                .box-duvida {
+                    margin-top: 1.25rem;
+                    width: 28rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.625rem;
+        
+                    .duvida {
+                        width: 28rem;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 8px;
+                        position: relative;
+                        
+        
+                        h3 {
+                            font-family: var(--font-family);
+                            font-weight: var(--font-weight-title);
+                            font-size: var(--font-size-paragraph);
+                            line-height: var(--line-height-paragraph);
+                            
+                            outline: 2px solid var(--color-btn);
+                            border-radius: 2px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            padding: 0.625rem;
+                            width: 100%;
+                            height: 100%;
+        
+                            span {
+                                width: 95%;
+                            }
+                            
+                        }
+        
+                        img {
+                            width: 0.9rem;
+                            height: .625rem;
+                            position: absolute;
+                            top: 0.9rem;
+                            right: 10px;
+                        }
+        
+                        
+        
+        
+                        .paragrafo {
+                            
+                            font-family: var(--font-family);
+                            font-size: var(--font-size-paragraph);
+                            font-weight: var(--font-weight-paragraph);
+                            line-height: var(--line-height-paragraph);
+                               
+                        } 
+                        
+                    }
+        
+                    .duvida .paragrafo {
+                        border-right: 1px solid #ff725e;
+                        border-bottom: 1px solid #ff725e;
+                        border-left: 1px solid #ff725e;
+                        border-radius: 0 0 8px 8px;
+                        padding: 0 24px;
+                    
+                        height: 0;
+                        opacity: 0;
+                        overflow: hidden;
+                        transition: .2s;
+                    } 
+                    
+                    
+                    .duvida.ativa .paragrafo {
+                        height: fit-content;
+                        opacity: 1;
+                        padding: 1.5rem;
+                    }
+                    
+                }
+
+            }
+    
+            
+    
+    
+        }
+    
     }
 
 }

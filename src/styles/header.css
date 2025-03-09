@@ -48,3 +48,56 @@ header {
     }
     
 }
+
+@media screen and (min-width: 1025px)  {
+    header {
+        width: 100vw;
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--color-header);
+        padding: 0 80px;
+        position: initial;
+    
+        #box-a1 {
+            width: 5.8125rem;
+            height: 1.8125rem;
+            display: flex;
+            align-items: center;
+            
+            img {
+                width: 5.8125rem;
+                height: 1.8125rem;
+            }
+    
+        }
+    
+        nav {
+            width: 520px;
+            height: 1.1875rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+            position: initial;
+    
+            a {
+                text-decoration: none;
+                color: var(--color-white);
+                font-family: var(--font-family);
+                font-weight: var(--font-weight-title);
+                font-size: 1rem;
+                line-height: var(--line-height-btn);
+    
+            }
+    
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+}
