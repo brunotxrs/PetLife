@@ -1,4 +1,4 @@
-## PetLife - Projeto Front-End
+## 🦴 🩺 PetLife - Projeto Front-End
 Bem-vindo ao repositório do projeto <strong>PetLife</strong>! Este projeto foi desenvolvido como uma aplicação prática das minhas habilidades como desenvolvedor Front-End, com foco em criar uma experiência responsiva e acessível para os usuários. O site foi estilizado utilizando a abordagem Mobile-First, garantindo que a experiência em dispositivos móveis seja priorizada, e posteriormente ajustada para telas maiores através de Media Queries.
 
 
@@ -109,7 +109,7 @@ Aqui estão algumas capturas de tela do projeto em diferentes dispositivos:
 </p>
 
 
-## 🙌 Créditos
+## 👨🏻‍💻 Developer
 Este projeto foi desenvolvido por <strong>Bruno Teixeira</strong> como parte do meu portfólio de desenvolvimento Front-End. Sinta-se à vontade para entrar em contato ou contribuir com o projeto!
 
 - [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/brunotxrs/)
